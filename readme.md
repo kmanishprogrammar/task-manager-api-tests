@@ -37,13 +37,18 @@ task-manager-api-tests/
 │   ├── unit/taskModel.test.js
 │   ├── integration/dbOperations.test.js
 │   └── api/taskApi.test.js
+├── coverage/
+│   ├── lcov-report/ (HTML test coverage report)
+│   └── coverage-final.json, lcov.info, etc.
+├── screenshots/
+│   ├── image9.png(test_coverage)
+│   ├── image1.png → image8.png
 ├── .env
 ├── .gitignore
 ├── jest.config.js
+├── package.json
 ├── server.js
 ├── README.md
-└── screenshots/
-    └── image9.png
 ```
 
 ---
