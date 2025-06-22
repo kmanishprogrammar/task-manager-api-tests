@@ -24,7 +24,7 @@ It includes:
 ## 📁 Project Structure
 
 ```
-custom-api-server/
+task-manager-api-tests/
 ├── models/
 │   └── Task.js
 ├── routes/
@@ -76,6 +76,7 @@ custom-api-server/
 <p align="center">
   <img src="screenshots\image9.png" width="600" />
 </p>
+> 📁 Note: Screenshots were taken from the local folder `custom-api-server`, but the GitHub repo name is `task-manager-api-tests`. Functionality and code are the same.
 
 ---
 
@@ -85,7 +86,7 @@ custom-api-server/
 
 ```bash
 git clone https://github.com/kmanishprogrammar/task-manager-api-tests.git
-cd custom-api-server
+cd task-manager-api-tests
 ```
 
 ---
