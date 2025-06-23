@@ -3,17 +3,20 @@ const { MongoMemoryServer } = require("mongodb-memory-server");
 const request = require("supertest");
 const express = require("express");
 const taskRoutes = require("../../routes/taskRoutes");
-const Task = require("../../models/Task");
 
 const app = express();
 app.use(express.json());
 app.use("/api/tasks", taskRoutes);
 
 let mongo;
+let Task; // Declare Task here, load after connection
 
 beforeAll(async () => {
   mongo = await MongoMemoryServer.create();
   await mongoose.connect(mongo.getUri(), { dbName: "apitest" });
+
+  // Import Task model AFTER DB is connected
+  Task = require("../../models/task");
 });
 
 afterAll(async () => {
