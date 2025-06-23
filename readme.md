@@ -41,7 +41,7 @@ task-manager-api-tests/
 │   ├── lcov-report/ (HTML test coverage report)
 │   └── coverage-final.json, lcov.info, etc.
 ├── screenshots/
-│   ├── image9.png(test_coverage)
+│   ├── image9.png,image10.png(test_coverage)
 │   ├── image1.png → image8.png
 ├── .env
 ├── .gitignore
@@ -80,6 +80,7 @@ task-manager-api-tests/
 
 <p align="center">
   <img src="screenshots\image9.png" width="600" />
+  <img src="screenshots\image10.png" width="600" />
 </p>
 > 📁 Note: Screenshots were taken from the local folder `custom-api-server`, but the GitHub repo name is `task-manager-api-tests`. Functionality and code are the same.
 
